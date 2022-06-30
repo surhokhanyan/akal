@@ -26,6 +26,7 @@ let languagesPlaceClickI = document.querySelector("#languagesPlaceClick i");
 let languagesClick = document.querySelector("#languagesClick");
 let languagesClickLi = document.querySelectorAll("#languagesClick li");
 let container = document.querySelector("#container");
+let buttonServices = document.querySelector("#buttonPlace button");
 let isOpen = true;
 languagesPlaceClickI.addEventListener("click", ()=>{
     if (isOpen) {
@@ -45,6 +46,11 @@ languagesClickLi.forEach(item =>{
     item.addEventListener("click", ()=>{
         languagesClick.style.display = "none";
     })
+})
+buttonServices.addEventListener("click", ()=>{
+    container.style.display = "none";
+    serviceContainer.style.display = "flex";
+    serviceLi.setAttribute("class", "active");
 })
 // For burger menu
 let forMenu = document.querySelector("#forMenu");
