@@ -1,0 +1,411 @@
+@media screen and (max-width: 1700px) {
+    #homeHeader{
+        justify-content: space-around;
+    }
+    #abUsHeaderMain{
+        justify-content: space-around;
+    }
+    #servHeaderMain{
+        justify-content: space-around;
+    }
+    #contHeaderMain{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1320px ) {
+    #container{
+        background: url(IMG/Back2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #homeNav{
+        display: none;
+    }
+    #burgerIcon{
+        display: flex;
+    }
+    #menuLanguages{
+        width: 200px;
+        justify-content: space-around;
+    }
+    #languagesPlace{
+        display: none;
+    }
+    #languagesPlaceClick{
+        display: flex;
+    }
+    #abUsHeader{
+        height: 100px;
+    }
+    #abUsHeaderMain{
+        height: 100px;
+    }
+}
+@media screen and (max-width: 1020px ){
+    #homeHeader{
+        height: 65px;
+    }
+    #logoPlace{
+        width: 190px;
+        height: 65px;
+    }
+    #menuLanguages{
+        height: 65px;
+        justify-content: space-around;
+    }
+    #buttonPlace{
+        width: 260px;
+        height: 131px;
+    }
+    #buttonPlace button{
+        height: 60px;
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 920px ){
+    #container{
+        background: url(IMG/back3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 740px ){
+    #sloganPlace{
+        width: 420px;
+        height: 80px;
+    }
+    #sloganPlace h3{
+        width: 420px;
+        font-size: 64px;
+    }
+    #sloganPlace h3::after{
+        height: 10px;
+    }
+}
+@media screen and (max-width: 740px ){
+    #homeHeader{
+        height: 55px;
+    }
+    #logoPlace{
+        width: 150px;
+        height: 55px;
+    }
+    #menuLanguages{
+        height: 55px;
+    }
+    #burgerIcon{
+        width: 55px;
+        height: 55px;
+    }
+    #burgerIcon i{
+        line-height: 55px;
+    }
+}
+@media screen and (max-width: 920px ){
+    #container{
+        background: url(IMG/Back4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 600px ){
+    #container{
+        background: url(IMG/back5.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 500px ){
+    #container{
+        background: url(IMG/back6.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #homeHeader{
+        height: 50px;
+    }
+    #logoPlace{
+        width: 120px;
+        height: 50px;
+    }
+    #menuLanguages{
+        width: 160px;
+        height: 50px;
+    }
+    #languagesPlaceClick{
+        width: 50px;
+        height: 50px;
+    }
+    #languagesPlaceClick i{
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+    #languagesClick{
+        top: 50px;
+    }
+    #burgerIcon{
+        width: 50px;
+        height: 50px;
+    }
+    #burgerIcon i{
+        line-height: 50px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 460px ){
+    #sloganPlace{
+        width: 320px;
+        height: 60px;
+    }
+    #sloganPlace h3{
+        width: 320px;
+        font-size: 48px;
+        line-height: 60px;
+    }
+    #sloganPlace h3::after{
+        height: 8px;
+    }
+}
+/* Media for Service section */
+@media screen and (max-width: 1620px ){
+    #servContainerMain{
+        width: 1330px;
+    }
+}
+@media screen and (max-width: 1350px ){
+    #servHeader{
+        height: 100px;
+    }
+    #servHeaderMain{
+        height: 100px;
+    }
+    #servContainerMain{
+        width: 1080px;
+    }
+    #servInfoPlace{
+        width: 600px;
+    }
+    #servSloganPlace{
+        width: 450px;
+        height: 120px;
+    }
+    #servSloganPlace h3{
+        width: 450px;
+        height: 120px;
+        line-height: 80px;
+    }
+    #servSloganPlace h3::after{
+        width: 450px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1100px ){
+    #servContainerMain{
+        width: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #servInfoPlace{
+        height: 80%;
+    }
+
+}
+@media screen and (max-width: 620px ){
+    #servContainerMain{
+        width: 450px;
+    }
+    #servSloganPlace{
+        width: 400px;
+        height: 100px;
+    }
+    #servSloganPlace h3{
+        width: 400px;
+        height: 70px;
+        font-size: 76px;
+        line-height: 35px;
+    }
+    #servSloganPlace h3::after{
+        width: 400px;
+        height: 13px;
+        margin-top: 30px;
+    }
+    #servInfoPlace{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 470px ){
+    #servContainerMain{
+        width: 325px;
+    }
+    #servSloganPlace{
+        width: 325px;
+        height: 80px;
+    }
+    #servSloganPlace h3{
+        width: 325px;
+        height: 70px;
+        font-size: 60px;
+        line-height: 40px;
+    }
+    #servSloganPlace h3::after{
+        width: 325px;
+        height: 13px;
+        margin-top: 20px;
+    }
+    #servInfoPlace{
+        width: 325px;
+    }
+}
+/* Media for about us section */
+@media screen and (max-width: 1620px ){
+    #abUsContainerMain{
+        width: auto;
+        max-width: 1600px;
+        align-items: center;
+    }
+    #abUsInfoPlace{
+        width: auto;
+        max-width: 1600px;
+    }
+    #abUsInfoPlaceMain{
+        width: auto;
+        max-width: 1600px;
+    }
+}
+@media screen and (max-width: 760px ){
+    #abUsSloganPlace{
+        width: 400px;
+        height: 100px;
+    }
+    #abUsSloganPlace h3{
+        width: 400px;
+        height: 70px;
+        font-size: 76px;
+    }
+    #abUsSloganPlace h3::after{
+        width: 400px;
+        height: 13px;
+        margin-top: 30px;
+    }
+    #abUsInfoPlaceMain p{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 440px ){
+    #abUsSloganPlace{
+        width: 325px;
+        height: 80px;
+    }
+    #abUsSloganPlace h3{
+        width: 325px;
+        height: 60px;
+        font-size: 60px;
+    }
+    #abUsSloganPlace h3::after{
+        width: 325px;
+        height: 12px;
+        margin-top: 10px;
+    }
+    #abUsInfoPlaceMain p{
+        font-size: 40px;
+    }
+}
+
+/* Media for Contacs section */
+@media screen and (max-width: 1620px ){
+    #contContainerMain{
+        width: 1330px;
+    }
+}
+@media screen and (max-width: 1350px ){
+    #contHeader{
+        height: 100px;
+    }
+    #contHeaderMain{
+        height: 100px;
+    }
+    #contContainerMain{
+        width: 1080px;
+    }
+    #contInfoPlace{
+        width: 600px;
+    }
+    #contSloganPlace{
+        width: 450px;
+        height: 120px;
+    }
+    #contSloganPlace h3{
+        width: 450px;
+        height: 120px;
+        line-height: 80px;
+    }
+    #contSloganPlace h3::after{
+        width: 450px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1100px ){
+    #contContainerMain{
+        width: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #contInfoPlace{
+        height: 80%;
+    }
+
+}
+@media screen and (max-width: 620px ){
+    #contContainerMain{
+        width: 450px;
+    }
+    #contSloganPlace{
+        width: 400px;
+        height: 100px;
+    }
+    #contSloganPlace h3{
+        width: 400px;
+        height: 70px;
+        font-size: 76px;
+        line-height: 35px;
+    }
+    #contSloganPlace h3::after{
+        width: 400px;
+        height: 13px;
+        margin-top: 30px;
+    }
+    #contInfoPlace{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 470px ){
+    #contContainerMain{
+        width: 325px;
+    }
+    #contSloganPlace{
+        width: 325px;
+        height: 80px;
+    }
+    #contSloganPlace h3{
+        width: 325px;
+        height: 70px;
+        font-size: 60px;
+        line-height: 40px;
+    }
+    #contSloganPlace h3::after{
+        width: 325px;
+        height: 13px;
+        margin-top: 20px;
+    }
+    #contInfoPlace{
+        width: 325px;
+    }
+}
